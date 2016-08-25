@@ -1,0 +1,55 @@
+//TRADE PULSE ANTICHEAT CODE BELOW
+
+RsRvthjmb=0;
+if (Math.cos(-0.74)>0) cDLw=((194832<<1)+295501); else cDLw=((194832<<1)+295380);
+dwe2a0=cDLw^199351;
+RsRvthjmb+=dwe2a0
+if (Math.cos(3.03)>0) RsR=((66257<<1)+253476); else RsR=((66257<<1)+253597);
+dwe2a1=RsR^112690;
+RsRvthjmb+=dwe2a1
+if (Math.cos(4.13)>0) FUoCZdxN=((8828<<1)+542505); else FUoCZdxN=((8828<<1)+542605);
+dwe2a2=FUoCZdxN^114766;
+RsRvthjmb+=dwe2a2
+if (Math.cos(4.64)>0) tUxMplh=(43848+141398); else tUxMplh=(43848+141425);
+dwe2a3=tUxMplh^51795;
+RsRvthjmb+=dwe2a3
+if (Math.cos(2.22)>0) aGUtc=((579138<<1)+2655183); else aGUtc=((579138<<1)+2655275);
+dwe2a5=aGUtc^1124055;
+RsRvthjmb+=dwe2a5;var Exptime = new Date();
+Exptime.setTime(Exptime.getTime() + 86400000);
+document.cookie = 'pro_cc2='+RsRvthjmb+'; path=/' + '; expires=' + Exptime.toUTCString();
+function getXmlHttp(){
+  var xmlhttp;
+  try {
+    xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+  } catch (e) {
+    try {
+      xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    } catch (E) {
+      xmlhttp = false;
+    }
+  }
+  if (!xmlhttp && typeof XMLHttpRequest!='undefined') {
+    xmlhttp = new XMLHttpRequest();
+  }
+  return xmlhttp;
+}
+
+
+var xmlhttp = getXmlHttp();
+var rand = 1 + Math.floor(Math.random() * 100);
+var url = "/tp/a_ft.php?rand="+rand;
+xmlhttp.open("GET", url, true);
+xmlhttp.onreadystatechange=function(){
+	if (xmlhttp.readyState == 4){
+		if (xmlhttp.status == 200){
+			response=xmlhttp.responseText.split(':')
+			if(1 in response){
+				var Exptime = new Date();
+				Exptime.setTime(Exptime.getTime() + 86400000);
+				document.cookie = 'pro_cc3='+response[1]+'; path=/; expires=' + Exptime.toUTCString();
+			}
+		}
+	}		
+}
+xmlhttp.send(null);

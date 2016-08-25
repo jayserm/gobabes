@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {font-size:1em; margin:0;font-family: 'Droid Sans', sans-serif;}
+body {}
+#header {
+	width: 100%;
+}
+#nav {position:relative;}
+#nav ul {
+	vertical-align:top;
+	padding: 0;
+	margin: 0;
+}
+#nav li {
+	list-style:none; margin:0; padding:0;
+}
+#nav ul a { color:rgba(0, 0, 0, 1); text-decoration:none; }
+#header #nav ul.categories {text-align:center;}
+#header #nav ul.categories li {}
+#nav ul.menu {position:relative; width:100%;
+background:url(http://www.sexviacam.com/design/sexviacam.png) no-repeat top, -moz-linear-gradient(left,  rgba(151, 151, 151, 0.8) 0%, rgba(255, 255, 255, 1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(151, 151, 151, 0.8)), color-stop(100%,rgba(255, 255, 255, 1))); /* Chrome,Safari4+ */
+background:url(http://www.sexviacam.com/design/sexviacam.png) no-repeat top, -webkit-linear-gradient(left,  rgba(151, 151, 151, 0.8) 0%,rgba(255, 255, 255, 1) 100%); /* Chrome10+,Safari5.1+ */
+background:url(http://www.sexviacam.com/design/sexviacam.png) no-repeat top, -o-linear-gradient(left,  rgba(151, 151, 151, 0.8) 0%,rgba(255, 255, 255, 1) 100%); /* Opera 11.10+ */
+background:url(http://www.sexviacam.com/design/sexviacam.png) no-repeat top, -ms-linear-gradient(left,  rgba(151, 151, 151, 0.8) 0%,rgba(255, 255, 255, 1) 100%); /* IE10+ */
+background:url(http://www.sexviacam.com/design/sexviacam.png) no-repeat top, linear-gradient(to right,  rgba(151, 151, 151, 0.8) 0%,rgba(255, 255, 255, 1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#979797', endColorstr='#fff',GradientType=1 ); /* IE6-9 */
+}
+#nav ul.menu li {text-align:center; margin:0 1.5%; display:inline-block;}
+#nav ul.menu li:last-child {}
+#nav ul.menu li:hover {}
+#nav ul.menu li a {color:#444444;display:block; font-size:.86em; line-height:3em; font-weight:bold;}
+#nav ul.menu li a:hover {color:#fff;}
+#nav ul.categories {margin:0; background: #555555;}
+#nav ul.categories li {text-align:center;display:inline-block; margin:0; padding:0; width:10%;}
+#nav ul.categories li:last-child {}
+#nav ul.categories li a {color:#fff; font-size:.79em; display:block; font-weight:bold; border-top: .5em solid rgba(217, 69, 69, 0);
+line-height: 2em;}
+#nav ul.main li a{border-top: .5em solid rgba(217, 69, 69, .7);
+line-height: 2em;}
+#nav ul.categories li:hover {background:#757575;}
+#nav ul.categories li a:hover {}
+#nav ul.menu li a.achecked {border-top: .3em solid rgba(217, 69, 69, 0.74); border-bottom: .3em solid rgba(217, 69, 69, 0.74);border-radius: 30px;line-height: 2em;padding: 0 .5em;}
+#nav ul.categories li.xchecked, #nav ul.categories li.acheckedprivate-girls, #nav ul.categories li.acheckedfree-girls, #nav ul.categories li.bcheckedprivate-boys, #nav ul.categories li.bcheckedfree-boys, #nav ul.categories li.ccheckedprivate-couples, #nav ul.categories li.ccheckedfree-couples, #nav ul.categories li.dcheckedprivate-shemales, #nav ul.categories li.dcheckedfree-shemales, #nav ul.categories li.acheckedteen, #nav ul.categories li.bcheckedyoung, #nav ul.categories li.ccheckedmature, #nav ul.categories li.dcheckedlesbian, #nav ul.categories li.echeckedgay, #nav ul.categories li.fcheckedfetish {background:#757575; vertical-align:bottom;}
+#nav ul.categories li.xchecked a, #nav ul.categories li.acheckedprivate-girls a, #nav ul.categories li.acheckedfree-girls a, #nav ul.categories li.bcheckedprivate-boys a, #nav ul.categories li.bcheckedfree-boys a, #nav ul.categories li.ccheckedprivate-couples a, #nav ul.categories li.ccheckedfree-couples a, #nav ul.categories li.dcheckedprivate-shemales a, #nav ul.categories li.dcheckedfree-shemales a, #nav ul.categories li.acheckedteen a, #nav ul.categories li.bcheckedyoung a, #nav ul.categories li.ccheckedmature a, #nav ul.categories li.dcheckedlesbian a, #nav ul.categories li.echeckedgay a, #nav ul.categories li.fcheckedfetish a {border-top:.5em solid rgba(217, 69, 69, .7); line-height:2em;}
+.search2 {margin-bottom:.5em; position:relative;}
+.search2 input:first-child {width:60%; margin-right:1%;}
+.search2 input:second-child {width:20%; margin:0;}
+.search2 b {font-weight:normal; text-decoration:underline;}
+.search2 b span {display:none; position:absolute; z-index:100; background:#C9C9C9;}
+.search2 b:hover span {display:block;}
+#content {width:100%; text-align:center;background:#EDEDED;display:flex;}
+.isotope {clear:both;}
+#content h1 {color: #C02323;font:normal 1.2em Georgia, serif;text-align:center;margin:0;font-size:1.2em;line-height:2em;font-weight:bold;}
+ul.paging {padding:0; margin:.5em 0;}
+ul.paging li {list-style:none; display:inline-block; padding:0 .2em;font:normal 1.3em Georgia, serif;}
+ul.paging a li:hover {color:#C02323;}
+ul.paging a li {color:#000;}
+ul.paging  li.here {font-size:1em;}
+ul.paging  li.here b {color:#C02323;}
+.item {position:relative;display:inline-block; margin:.3%; overflow:hidden; line-height:0; max-width:180px; height:148px;box-shadow: rgba(0, 0, 0, 0.81) 0px 0px 5px; border-radius:7px}
+.item img {max-width:100%;border-radius:7px;}
+.item a:hover img {}
+.item span {width:100%;line-height:1em; position:absolute; display:block; background: rgba(68, 68, 68, 0.5); text-align:center; bottom:-2.5em; padding: .2em 0; border-radius: 0 0 5px 5px;}
+.item span:hover {background: rgba(68, 68, 68, 0.8);}
+.item:hover span {bottom:0;
+transition: all .5s ease-out 0.1s;
+-webkit-transition: all .5s ease-out 0.1s;
+-moz-transition: all .5s ease-out 0.1s;
+-o-transition: all .5s ease-out 0.1s;}
+.item span a {color:#fff; font-size:.75em; display:block; text-decoration:underline;}
+div.item img.onlineimg  {display:none;}
+div.item div.live img {opacity:100;
+-webkit-transition: opacity .35s ease-in-out;
+-moz-transition: opacity .35s ease-in-out;
+-ms-transition: opacity .35s ease-in-out;
+-o-transition: opacity .35s ease-in-out;
+transition: opacity .35s ease-in-out;
+}
+div.item div.live {}
+div.item:hover div.live img {opacity:0; position:absolute; bottom:0; left:0;}
+div.item:hover img.onlineimg {display:block;}
+div.item p {color:#fff;width:100%;position:absolute; line-height:normal; height:1.5em; padding:.2em; overflow:hidden; font-size:.9em; bottom:-2em; margin:0; text-align:center; background:rgba(0,0,0,.5);
+transition: all .2s ease-out 0.1s;
+-webkit-transition: all .2s ease-out 0.1s;
+-moz-transition: all .2s ease-out 0.1s;
+-o-transition: all .2s ease-out 0.1s;
+box-shadow: 1px 1px 2px 1px #FFF;
+font-variant: small-caps;
+font-weight: bold;
+}
+div.item:hover p {bottom:0;}
+
+.toolbar {box-shadow:1px 1px 5px 0px rgba(0, 0, 0, 0.53);width:20%; float:left; padding:.3em; background:linear-gradient(to right, rgba(185, 185, 185, 1) 15%,rgba(237, 237, 237, 1) 90%); border-radius:0 5px 5px 0; overflow:hidden; border-left:.35em solid #B14949;}
+.tags {}
+.tags b {display: block;width:100%;margin:auto;color: #3D3D3D;padding:.2em;text-shadow: rgba(2, 2, 2, 0.49) 0px 1px 2px;}
+.barimg {display:inline-block; position:relative; margin:.5%; overflow:hidden; line-height:0; width:48%; max-width:180px; min-width:100px;height: 3em; border-radius:5px;}
+.barimg img {max-width:100%;
+-webkit-transition: all .35s ease-in-out;
+-moz-transition: all .35s ease-in-out;
+-ms-transition: all .35s ease-in-out;
+-o-transition: all .35s ease-in-out;
+transition: all .35s ease-in-out;
+}
+.barimg:hover img {margin-top:-1em;
+}
+.barimg p {position:absolute; width:100%; line-height:4em; font-size:.75em; text-align:center; background:rgba(58, 56, 56, 0.72); bottom:0; color:#ccc; font-weight:bold; margin:0;
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-ms-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
+.barimg:hover p {bottom:-4em;}
+#footer {clear:left;height:1.1em;width:100%;background:#555555; z-index:100; text-align:center;}
+#footer a {color:#fff; font-size:.75em; text-decoration:underline;}
+#footer a:hover, .item span a:hover {text-decoration:none;}
+
+.giftable {float:right; margin-right:.5%;margin-top: 2em;width:20%;max-width:300px;}
+div.giftable p:first-child {margin-top:0;}
+.giftable p {overflow:hidden; border-radius:10px; line-height:0;background: #323232;}
+.giftable p img {margin-top:-15px;opacity:.5;}
+.giftable p a:hover img {opacity:1;}
+.giftable b {display:block; margin:3% .1% .5%; text-align:right; font-size:.75em;}
+
+ul.list {display:block; vertical-align:top; list-style:none; text-align:left;width:100%; padding:0.3em; margin:0;}
+ul.list li {margin:0; padding:0;}
+ul.list li a {color:#444;text-decoration:none; padding:.2em;}
+ul.list li a:hover {color:#000; text-decoration:underline;}
+.one {
+    line-height: 0;
+}
+.one img {max-width: 100%;}
+.one:hover {
+    background: #555;
+}
+
+@media screen and (max-width: 1250px) {
+.toolbar {width:26%;}
+}
+@media screen and (max-width: 1100px) {
+.toolbar {width:30%;}
+}
+@media screen and (max-width: 759px) {
+.barimg {width:auto; margin:auto;}
+#nav ul.categories li {width:20%;}
+#nav ul.menu {background:url(http://www.sexviacam.com/design/sexviacam.png) no-repeat right, linear-gradient(to right,  rgba(151, 151, 151, 0.8) 0%,rgba(255, 255, 255, 1) 100%);}
+}
+@media screen and (min-width: 600px) and (max-width: 1250px) {
+.item {margin:.5%;}
+}
+@media screen and (min-width: 1190px) and (max-width: 1390px) {
+.item {margin:.3%;}
+}
+@media screen and (min-width: 1440px) {
+.item {margin:.2%;}
+}
+@media screen and (max-width: 1366px) {
+.barimg p  {line-height:3em;}
+.barimg {height:2em;}
+}
+@media screen and (max-width: 810px) {
+.giftable {display:none;}
+}
